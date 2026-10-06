@@ -1,0 +1,92 @@
+:root {
+    --background-color: #f4f4f4;
+    --text-color: #222;
+    --container-color: #ffffff;
+    --border-color: #cccccc;
+    --button-color: #333333;
+    --button-text: #ffffff;
+    --warning-color: orange;
+    --over-color: red;
+}
+
+body.dark {
+    --background-color: #1e1e1e;
+    --text-color: #f5f5f5;
+    --container-color: #2b2b2b;
+    --border-color: #555555;
+    --button-color: #f5f5f5;
+    --button-text: #222222;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: var(--container-color);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-family: inherit;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    resize: vertical;
+}
+
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--button-color);
+    color: var(--button-text);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.warning {
+    color: var(--warning-color);
+}
+
+.over {
+    color: var(--over-color);
+    font-weight: bold;
+}
