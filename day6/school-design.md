@@ -31,3 +31,8 @@ For example:
 ```sql
 CREATE INDEX idx_enrolments_student_id
 ON enrolments(student_id);
+```
+
+## SQL or NoSQL
+
+I would choose SQL for this school system because the data has clear relationships between students, courses and enrolments. SQL databases support primary keys, foreign keys, UNIQUE constraints and JOIN queries, which help maintain data consistency and make it easy to retrieve related information. The data is structured and has well-defined relationships, so a relational SQL database is more suitable than a NoSQL database for this system.
