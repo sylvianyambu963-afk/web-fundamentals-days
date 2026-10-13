@@ -1,0 +1,7 @@
+# Day 8 — Course Reflection
+
+The most difficult concept in this course was understanding how to design a system that remains reliable when many users access it at the same time. Concepts such as caching, database transactions, API design, and preventing duplicate operations required me to think beyond writing code that works for one user. I overcame this challenge by studying the examples, completing the daily assignments, revising work that did not meet the assessment requirements, and practising how to explain system-design decisions. I learned that a good system must consider performance, data consistency, security, and failure recovery.
+
+Based on the assessment feedback and the areas I worked on during my capstone, QuickNotes, I would improve its input validation, error handling, and automated testing. I would test what happens when the API is unavailable, a user submits invalid data, or a request is repeated. I would also improve the API and architecture documentation so that another developer could understand the design and maintain the application more easily. These improvements would make the project more reliable and easier to extend.
+
+Next, I want to learn more about backend development, database optimization, authentication, and cybersecurity. I also want to practise deploying applications, using automated tests, and monitoring their performance under realistic workloads. My goal is to build secure, scalable applications that solve real problems and to keep improving my software development skills through practical projects.
